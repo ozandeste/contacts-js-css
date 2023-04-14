@@ -13,8 +13,6 @@ document.addEventListener('DOMContentLoaded', loadApp);
 showSearchButton.addEventListener('click', UI.toggleSearchBox);
 searchInput.addEventListener('keyup', searchUser);
 
-const API_KEY = 'https://randomuser.me/api?results=50';
-
 
 
 function loadApp() {

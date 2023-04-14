@@ -1,7 +1,4 @@
-const TAB_ELEMENTS = Array.from(
-  document.querySelectorAll('.contacts-app__tabs-tab')
-);
-const TABS = { favorites: 0, all: 1 }; // favorites and all tabs
+const TAB_ELEMENTS = Array.from(document.querySelectorAll('.contacts-app__tabs-tab'));
 const contactList = document.getElementById('contact-list');
 
 
