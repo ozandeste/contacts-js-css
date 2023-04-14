@@ -6,6 +6,10 @@ ekleyerek devam ettim. <br><br>
 
 Uygulamada JavaScript Modules ve ES6 yapısını olabildiğince kullanmaya özen gösterdim. <br>
 
+![contacts app(1)](https://user-images.githubusercontent.com/59998499/232170879-fcb6c70a-29bc-4c26-8be9-38d6f8223927.gif)
+<br>
+<br>
+
 <table border="1">
 <tr>
   <td>Her sayfa yüklendiğinde farklı kişileri sağlayan API</td>
