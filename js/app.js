@@ -1,3 +1,4 @@
+// importing controllers
 import { UI } from './UI.js';
 import { API } from './API.js';
 
@@ -5,10 +6,12 @@ import { API } from './API.js';
 const TAB_ELEMENTS = Array.from(document.querySelectorAll('.contacts-app__tabs-tab'));
 const TABS = { favorites: 0, all: 1 }; // favorites and all tabs
 
+// preparing elements
 const contactList = document.getElementById('contact-list');
 const showSearchButton = document.getElementById('show-search-btn');
 const searchInput = document.getElementById('contactSearchInput');
 
+// eventListeners
 document.addEventListener('DOMContentLoaded', loadApp);
 showSearchButton.addEventListener('click', UI.toggleSearchBox);
 searchInput.addEventListener('keyup', searchUser);
