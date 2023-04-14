@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Contacts App - JS</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+  <div class="contacts-app">
+    <div class="container f-col">
+      
+      <div class="contacts-app__menu d-flex justify-between align-center">
+        <div class="contacts-app__menu-icon"></div>
+        <div class="contacts-app__menu-logo"><h3 title="Contacts" aria-label="app name">Contacts</h3></div>
+        <div class="contacts-app__menu-icon" id="show-search-btn"><i title="Ara.." data-feather="search" style="cursor: pointer"></i></div>
+      </div>
+
+      <div class="contacts-app__tabs d-flex">
+        <div data-active="0" data-tab-name="favorites" class="text-center pb-1 pt-1 contacts-app__tabs-tab contacts-app__tabs-tab_first">Favorites</div>
+        <div data-active="1" data-tab-name="all" class="text-center pb-1 pt-1 contacts-app__tabs-tab contacts-app__tabs-tab_second">All</div>
+      </div>
+
+      <div class="contacts-app__search-box">
+        <input type="text" placeholder="Search for..." id="contactSearchInput" value="">
+      </div>
+
+      <div class="contacts-app__list" id="contact-list">
+
+        <!-- <div class="d-flex align-center pb-3 pt-3 contacts-app__list-item gap-3">
+          <div class="contacts-app__list-item-image">
+            <img class="responsive-img rounded" src="https://media.istockphoto.com/id/1387523548/photo/beautiful-afro-girl-with-curly-hairstyle.jpg?s=612x612&w=0&k=20&c=d_JEFU_N4734O7bjFpnYn-PffQZv67j6-8q9VlJm2BA=" alt="Pamela Cox's image">
+          </div>
+          <div class="contacts-app__list-item-info f-col">
+            <div class="contacts-app__list-item-info_name"><h4>Pamela Cox</h4></div>
+            <div class="contacts-app__list-item-info_city text-secondary"><p class="sub-heading">Los Angeles, CA</p></div>
+          </div>
+        </div>
+        -->
+
+        
+
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js" type="module"></script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>
