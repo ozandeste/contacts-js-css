@@ -1,5 +1,6 @@
 import { UI } from './UI.js';
-import { API } from './api.js';
+import { API } from './API.js';
+
 
 const TAB_ELEMENTS = Array.from(document.querySelectorAll('.contacts-app__tabs-tab'));
 const TABS = { favorites: 0, all: 1 }; // favorites and all tabs
@@ -11,6 +12,8 @@ const searchInput = document.getElementById('contactSearchInput');
 document.addEventListener('DOMContentLoaded', loadApp);
 showSearchButton.addEventListener('click', UI.toggleSearchBox);
 searchInput.addEventListener('keyup', searchUser);
+
+const API_KEY = 'https://randomuser.me/api?results=50';
 
 
 
